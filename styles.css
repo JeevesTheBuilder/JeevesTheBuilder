@@ -1,17 +1,28 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+/* CSS for JeevesTheBuilder Github pages */
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+/* Define global styles */
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 100%;
+  margin: 0px;
+  font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+h2 {
+  size: 1.75em;
+  font-style: bold;
+}
+h3 {
+  size: 1.5em;
+}
+h4 {
+  size: 1.25em;
+}
+
+/* Header/Banner Classes */
+
+.banner {
+  width: 100%
+  padding: 0px;
+  margin: 0px;
 }
