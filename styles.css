@@ -22,6 +22,7 @@ h4 {
 /* Header/Banner Classes */
 
 .banner {
+  display: block;
   width: 100%
   padding: 0px;
   margin: 0px;
