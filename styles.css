@@ -43,12 +43,13 @@ h4 {
 }
 
 ul.top {
-    display: inline-block;
+    display: inline;
+    float: left;
     width: 80%;
     background-color: #363636;
 }
 
-.nav-link {
+li.nav-link {
     display: block;
     float: left;
     margin-left: 1%;
