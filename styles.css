@@ -43,11 +43,16 @@ h4 {
 }
 
 ul.top {
-
+    display: inline-block;
+    width: 80%;
+    background-color: #363636;
 }
 
 .nav-link {
-
+    display: block;
+    float: left;
+    margin-left: 1%;
+    padding: 1%;
 }
 
 #banner-wrapper {
