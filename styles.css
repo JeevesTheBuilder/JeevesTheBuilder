@@ -3,27 +3,114 @@
 /* Define global styles */
 
 p {
-  display: block;
-  width: 100%;
-  margin: 0px;
-  font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+    display: block;
+    width: 100%;
+    margin: 0px;
+    font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    }
 h2 {
-  size: 1.75em;
-  font-style: bold;
+    size: 1.75em;
+    font-style: bold;
 }
 h3 {
-  size: 1.5em;
+    size: 1.5em;
 }
 h4 {
-  size: 1.25em;
+    size: 1.25em;
 }
 
-/* Header/Banner Classes */
+#page-wrapper {
+    width: 100%;
+
+}
+
+/* Header/Navigation/Banner Classes */
+
+#header-wrapper {
+    width: 100%;
+}
+
+.logo-container {
+    width: 20%;
+}
+
+.logo-image {
+    display: block;
+}
+
+#navigation-top {
+
+}
+
+ul.top {
+
+}
+
+.nav-link {
+
+}
+
+#banner-wrapper {
+    display: block;
+    width: 100%;
+}
+
 
 .banner {
-  display: block;
-  width: 100%
-  padding: 0px;
-  margin: 0px;
+    display: block;
+    width: 100%
+    padding: 0px;
+    margin: 0px;
 }
+
+/* Move to page content elements */
+
+#content-wrapper {
+    display: block;
+    width: 100%;
+}
+
+#content {
+    display: block;
+    width: 100%;
+}
+
+.section {
+    display: block;
+    width: 100%;
+}
+
+/* Content Block classes */
+
+/* Left-aligned Text and Image Blocks */
+
+.left-text {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.left-image {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+/* Right-aligned Text and Image Blocks */
+
+.right-text {
+    display: block;
+    float: right;
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.right-image {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
