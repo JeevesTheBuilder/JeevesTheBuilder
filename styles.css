@@ -42,8 +42,8 @@ h4 {
 
 }
 
-ul.top {
-    display: inline;
+nav.top, a nav.top {
+    display: block-inline;
     float: right;
     width: 80%;
     height: 60px;
@@ -51,9 +51,9 @@ ul.top {
     background-color: #363636;
 }
 
-li.nav-link {
+li.nav-link, a li.nav-link {
     display: block;
-    float: left;
+    float: right;
     margin-left: 1%;
     padding: 1%;
 }
@@ -87,7 +87,7 @@ li.nav-link {
     width: 100%;
 }
 
-.section {
+section {
     display: block;
     float:left;
     width: 100%;
