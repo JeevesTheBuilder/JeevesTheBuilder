@@ -44,8 +44,10 @@ h4 {
 
 ul.top {
     display: inline;
-    float: left;
+    float: right;
     width: 80%;
+    height: 60px;
+    font-color: #efefef;
     background-color: #363636;
 }
 
@@ -58,12 +60,14 @@ li.nav-link {
 
 #banner-wrapper {
     display: block;
+    float: left;
     width: 100%;
 }
 
 
 .banner {
     display: block;
+    float: left;
     width: 100%
     padding: 0px;
     margin: 0px;
@@ -73,16 +77,19 @@ li.nav-link {
 
 #content-wrapper {
     display: block;
+    float:left;
     width: 100%;
 }
 
 #content {
     display: block;
+    float:left;
     width: 100%;
 }
 
 .section {
     display: block;
+    float:left;
     width: 100%;
 }
 
@@ -93,7 +100,7 @@ li.nav-link {
 .left-text {
     display: block;
     float: left;
-    width: 50%;
+    width: 46%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -101,7 +108,7 @@ li.nav-link {
 .left-image {
     display: block;
     float: left;
-    width: 100%;
+    width: 50%;
 }
 
 /* Right-aligned Text and Image Blocks */
@@ -109,7 +116,7 @@ li.nav-link {
 .right-text {
     display: block;
     float: right;
-    width: 50%;
+    width: 46%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -117,6 +124,6 @@ li.nav-link {
 .right-image {
     display: block;
     float: left;
-    width: 100%;
+    width: 50%;
 }
 
