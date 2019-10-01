@@ -39,6 +39,7 @@ h4 {
 }
 
 #navigation-top {
+    background-color: #363636;  
 
 }
 
@@ -47,7 +48,7 @@ nav.top, a nav.top {
     float: right;
     width: 80%;
     height: 60px;
-    font-color: #efefef;
+    color: #efefef;
     background-color: #363636;
 }
 
@@ -68,7 +69,7 @@ li.nav-link, a li.nav-link {
 .banner {
     display: block;
     float: left;
-    width: 100%
+    width: 100%;
     padding: 0px;
     margin: 0px;
 }
