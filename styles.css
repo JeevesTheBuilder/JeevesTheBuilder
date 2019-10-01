@@ -100,8 +100,8 @@ section {
     display: block;
     float: left;
     width: 46%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .left-image {
@@ -123,6 +123,8 @@ section {
 .right-image {
     display: block;
     float: right;
-    width: 50%;
+    width: 46%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
