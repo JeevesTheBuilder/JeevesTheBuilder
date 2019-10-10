@@ -1,131 +1,63 @@
-/* CSS for JeevesTheBuilder Github pages */
-
-/* Define global styles */
+body {
+    margin: 0;
+    padding: 0;
+}
 
 p {
-    display: block;
-    width: 100%;
-    margin: 0px;
     font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-    }
-h2 {
-    size: 1.75em;
-    font-style: bold;
-}
-h3 {
-    size: 1.5em;
-}
-h4 {
-    size: 1.25em;
 }
 
-#page-wrapper {
+h1 {
+    color: #3d3232;
+    font-style: italic;
+    font: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+header {
+    display:inline-flex;
     width: 100%;
-
+    height: 10%;
+    background-color:#166df0;
 }
 
-/* Header/Navigation/Banner Classes */
-
-#header-wrapper {
+#title-box {
+    display:flex;
+    align-items:center;
+    justify-content;center;
     width: 100%;
+    padding-left: 30px;
 }
 
-.logo-container {
-    width: 20%;
+h1.site-title {
+    font-size: 2.5em;
+    color: #dadada;
+    vertical-align: middle;
 }
 
-.logo-image {
-    display: block;
-}
-
-#navigation-top {
-    background-color: #363636;  
-
-}
-
-nav.top, a nav.top {
-    display: block-inline;
-    float: right;
-    width: 80%;
-    height: 60px;
-    color: #efefef;
-    background-color: #363636;
-}
-
-li.nav-link, a li.nav-link {
-    display: block;
-    float: right;
-    margin-left: 1%;
-    padding: 1%;
-}
-
-#banner-wrapper {
-    display: block;
-    float: left;
+nav {
+    display:inline-flex;
+    justify-content: flex-end;
     width: 100%;
 }
 
+ul.top {
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+/* li.top-nav:first-child {
+    padding: 0px 0px 0px 20px;
+} */
 
-.banner {
-    display: block;
-    float: left;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+
+li.top-nav, li.top-nav a {
+    list-style:none;
+    color:#dadada;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding-right:20px;
 }
 
-/* Move to page content elements */
+img {
 
-#content-wrapper {
-    display: block;
-    float:left;
-    width: 100%;
 }
-
-#content {
-    display: block;
-    float:left;
-    width: 100%;
-}
-
-section {
-    display: block;
-    width: 100%;
-}
-
-/* Content Block classes */
-
-/* Left-aligned Text and Image Blocks */
-
-.left-text {
-    display: block;
-    float: left;
-    width: 46%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.left-image {
-    display: block;
-    float: left;
-    width: 50%;
-}
-
-/* Right-aligned Text and Image Blocks */
-
-.right-text {
-    display: block;
-    float: right;
-    width: 46%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.right-image {
-    display: block;
-    float: right;
-    width: 46%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
